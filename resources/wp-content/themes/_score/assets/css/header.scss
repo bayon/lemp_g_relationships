@@ -1,0 +1,18 @@
+.site-header{
+	xxxborder:dotted 1px red;
+	position:fixed;
+	top:0;
+	left:0;
+	box-shadow: 2px 2px 15px #CCC;
+    width:100%;
+	background-color:#fff;
+	z-index:9999;
+}
+
+div.site-branding{
+	xxxpadding:10px;
+	xxxborder:dotted green 1px;
+}
+.logo-wrapper img{
+	opacity:.5;
+}

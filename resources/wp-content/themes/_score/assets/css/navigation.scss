@@ -1,0 +1,79 @@
+.main-navigation{
+    padding:10px;
+    xxxborder:dotted 1px #000;
+    box-shadow:0px 4px 5px #000;
+}
+button.menu-toggle{
+    float:right;
+    width:44px;
+    height:44px;
+    xxxborder:dotted 1px #555;
+}
+.menu-mainmenu-container{
+    xxxxborder:dotted 1px #ccc;
+     
+}
+ul.menu.nav-menu{
+     
+}
+li.menu-item{
+    xxxborder:dotted 1px #000;
+    min-width:125px;
+    text-align:center;
+    padding:10px;
+}
+li.menu-item a{
+    xxxborder:dotted 1px #ccc;
+}
+
+ul.sub-menu{
+    background-color:#fff;
+    opacity:.95;
+}
+.sub-menu li.menu-item{
+}
+
+.sub-menu li.menu-item a{
+}
+@media (min-width: 0px) and (max-width: 768px) { 
+    .main-navigation{
+       /* position:fixed;
+        top:10px;
+        right:0;
+        background-color:#fff;*/
+         
+    }
+    .menu-mainmenu-container{
+        width:100%;
+    }
+    ul.menu.nav-menu{
+        width:100%;
+    }
+    li.menu-item{
+        width:100%;
+    }
+    ul.sub-menu{
+        width:100%;
+    }
+    .sub-menu li.menu-item{
+        width:100%;
+    }
+    .sub-menu li.menu-item a{
+        width:100%;
+    }
+}
+/*
+<nav id="site-navigation" class="main-navigation toggled">
+    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="true">Primary Menu</button>
+    <div class="menu-mainmenu-container">
+        <ul id="primary-menu" class="menu nav-menu" aria-expanded="true">
+            <li id="menu-item-9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-9"><a href="//localhost:3000/">Home</a></li>
+            <li id="menu-item-8" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item current_page_parent menu-item-has-children menu-item-8 focus"><a href="//localhost:3000/posts/">Posts</a>
+                <ul class="sub-menu">
+                    <li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a href="//localhost:3000/sample-page/">Sample Page</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+*/
