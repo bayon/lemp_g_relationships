@@ -1,5 +1,6 @@
 <?php
-
+// CHECK IF custom post type is regitered with REST API: 
+// http://localhost:3000/wp-json/wp/v2/posts
   // Register Custom Post Type: product
 function register_product() {
 
@@ -49,6 +50,7 @@ function register_product() {
 		'has_archive'           => true,
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
+		'show_in_rest' 			=> true,
 		'capability_type'       => 'post',
 	);
 	register_post_type( 'product', $args );
@@ -105,10 +107,13 @@ function register_component() {
 		'has_archive'           => true,
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
+		'show_in_rest' 			=> true,
 		'capability_type'       => 'post',
 	);
 	register_post_type( 'component', $args );
 
 }
 add_action( 'init', 'register_component', 0 );
+ 
+
   ?>

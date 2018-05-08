@@ -169,3 +169,9 @@ require get_template_directory() . '/inc/acf_functions.php';
  */
 require get_template_directory() . '/inc/performance-related.php';
 
+//ACFtoWPAPI.class
+/**
+ * ACFtoWPAPI.class
+ */
+require get_template_directory() . '/inc/ACFtoWPAPI.class.php';
+
