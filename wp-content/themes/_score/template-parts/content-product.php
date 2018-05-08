@@ -13,6 +13,11 @@
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<p class='dev_data_page' ><small>content-product.php</small></p>
+		<?php
+
+  
+?>
+		
 	</header><!-- .entry-header -->
 
 	<?php _score_post_thumbnail(); ?>

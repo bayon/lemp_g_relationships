@@ -20,8 +20,10 @@ get_header();
 		<?php
                 $doc_root = $_SERVER["DOCUMENT_ROOT"]."/wp-content";
                 include_once($doc_root."/plugins/wp-react-router-restful-plugin/index.php"); 
-            ?>
+            ?> 
+
 		<?php
+		/*
 		while ( have_posts() ) :
 			the_post();
 
@@ -33,6 +35,7 @@ get_header();
 			endif;
 
 		endwhile; // End of the loop.
+		*/
 		?>
 
 		</main><!-- #main -->
@@ -40,7 +43,7 @@ get_header();
 
 <?php
 $pagename = get_query_var('pagename');
-echo("<div style='position:fixed;bottom:0;left:0;'>page.php...".$pagename."</div>");
+echo("<div style='position:fixed;bottom:0;left:0;'>page-spa-with-react.php...".$pagename."</div>");
 //sidebar: comment out the sidebar on regular pages.
 //get_sidebar();
 get_footer();
